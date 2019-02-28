@@ -1,5 +1,8 @@
 # couchpotato_ffmpeg_pipadditions
 Couchpotato with mp4_automator 
+
+**not complete yet**
+
 Combination of Couchpotato, FFMPEG, and MP4_Automator
 
 Base Image: https://hub.docker.com/r/linuxserver/couchpotato
@@ -24,4 +27,3 @@ The /app/sickbeard_mp4_automator/autoProcess.ini file is a symlink to the /confi
 
 4.) I restarted the docker couchpotato-ffmpeg image and watched the logs via portainer to see if there are any errors. Then I took a video file and ran a test post processing while watching the medusa logs for any errors.
 
-I may have missed something so let me know.
