@@ -1,4 +1,4 @@
-From linuxserver/couchpotato
+From linuxserver/couchpotato:latest
 RUN \
 echo "**** install packages ****" && \
 apk add --no-cache \
