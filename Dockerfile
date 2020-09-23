@@ -4,7 +4,7 @@ echo "**** install packages ****" && \
 apk add --no-cache \
 ffmpeg \
 nano && \
-pip3 install --upgrade pip3 && \
+pip3 install --upgrade pip && \
 pip3 install requests && \
 pip3 install requests[security] && \
 pip3 install requests-cache && \
