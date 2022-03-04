@@ -44,5 +44,8 @@ python3 -m pip install mutagen && \
 #pip install qtfaststart && \
 #pip install tmdbsimple && \
 git clone git://github.com/mdhiggins/sickbeard_mp4_automator.git /app/sickbeard_mp4_automator && \
+git config pull.rebase true && \
+git reset --hard 0c092060ae && \
+git pull && \
 chown -R abc:ping /app/sickbeard_mp4_automator && \
 ln -s /config/autoProcess.ini /app/sickbeard_mp4_automator/autoProcess.ini
