@@ -45,5 +45,5 @@ python3 -m pip install mutagen && \
 #pip install tmdbsimple && \
 git clone -b fancyfilters https://github.com/mdhiggins/sickbeard_mp4_automator.git /app/sickbeard_mp4_automator && \
 git -C /app/sickbeard_mp4_automator checkout b3056f871a36bc07deba5c1f45bb9ec873b0220f && \
-chown -R abc:abc /app/sickbeard_mp4_automator && \
+chown -R root:root /app/sickbeard_mp4_automator && \
 ln -s /config/autoProcess.ini /app/sickbeard_mp4_automator/autoProcess.ini
